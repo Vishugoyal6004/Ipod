@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+
+ 
+}
+.mainbody{
+    background-color: rgba(128, 128, 128,.5);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    box-shadow: 1px 1px 20px   0px rgba(0, 0, 0,.8) inset,-1px -1px 50px   0px rgba(0, 0, 0, 0.8) inset;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+
+}
+
+
+
+
+
+/*******COMMON MENU ATTRIBUTES  ***********/
+.optn1,.musicoptn1,.coverflowoptn1{
+    background-color: rgba(0, 0, 255,.6);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuleft p,.musicmenuleft p,.coverflowmenuleft p{
+    margin-left: 10%;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menuleft i,.musicmenuleft i,.coverflowmenuleft i,.allsongsmenu i{
+    align-self: center;
+font-size: 18px;
+color: white;
+}
+
+.optn2,.optn3,.optn4,.musicoptn2,.musicoptn3,.musicoptn4,.coverflowoptn,.coverflowoptn2,.coverflowoptn3,.coverflowoptn4{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuleft,.musicmenuleft,.coverflowmenuleft,.allsongsmenu{
+    align-self: center;
+    background-color: white;
+    height: 200px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*NEW PAGE*/
+.allsongs{
+    width: 280px;
+    height: 200px;
+}
+.allsongsmenu{
+    width: 280px;
+    overflow: hidden;
+  z-index: 1;
+}
+.allsongslist{
+    z-index: 0;
+}
+.allsongsheading{
+    margin-top: 20px;
+    height: 50px;
+    text-align: left;
+    z-index: 2;
+}
+.allsongsheading h4{
+    color: rgb(63, 12, 12);
+    font-size: 25px;
+    margin-left: 10%;
+    margin-bottom: 4%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.allsongsmenu p
+{
+    margin-left: 5%;
+    margin-top: -5%;
+    line-height: 2;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+span{
+    color: rgba(0, 0, 255,.6);
+}
+
+/*MUSIC PLAYER*/
+.musicplayer{
+    background-color: rgba(255, 255, 255,.7);
+    background-image: linear-gradient(to bottom right, #acb6e5 , #86fde8);
+    width: 280px;
+    height: 200px;
+}
+.musicplayerupper{
+    padding-top: 8%;
+    padding-left: 5%;
+    display: flex;
+}
+.musicplayerimage{
+    height: 130px;
+    width: 130px;
+
+}
+.musicplayerinfo{
+    display: flex;
+    flex-direction: column;
+align-self: center;
+    width: 130px;
+}
+.musicplayerlower{
+    display: flex;
+    align-items: center;
+    padding-left: 2.5%;
+    padding-top: 2%;
+    width: 95%;
+    background-color: transparent;
+    height: 40px;
+
+}
+.starttime,.endtime{
+    margin-top: 8px;
+font-size: 14px;
+}
+.musicplayerbar{
+    margin-left: 5%;
+    margin-top: 4%;
+    height: 30px;
+    width: 170px;
+}
+.endtime{
+    margin-left: 5%;
+}
+
+
+/**/
+.artist{
+    background-color: white;
+    width: 280px;
+    height: 200px;
+}
+.artistheading{
+    height: 40px;
+    text-align: center;
+}
+.artistheading h4{
+    font-size: 25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.artistoptn{
+    color: blue;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0,.6),5px 5px 10px grey;    
+
+    width: 80px;
+    height: 60px;
+    border-radius: 15%;
+}
+.artistmenu{
+    width: 280px;
+    height: 150px;
+}
+.artistmenu1,.artistmenu2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/****MAIN MENU****/
+
+.menu{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10px;
+    border: 2px solid black;
+    width:280px ;
+    height: 200px; 
+   
+}
+
+.coverflow,.games,.settings,.music{
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menuright{
+    background-color: red;
+    height: 200px;
+    width: 140px;
+}
+
+
+
+/**********  Pages       *******************/
+.musicmenu,.coverflowmenu{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 10px;
+    width:280px ;
+    background-color: black;
+    margin-left: 0;
+    margin-top: 0;
+}
+.musicmenuright,.coverflowmenuright{
+  
+    
+    height: 200px;
+    width: 140px;
+}
+.heading,.musicheading,.coverflowheading{
+    height: 50px;
+    text-align: left;
+}
+.heading h4,.musicheading h4,.coverflowheading h4{
+    
+    font-size: 25px;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu p,.musicmenu p,.coverflowmenu p{
+   padding: 2px;
+}
+
+
+/*****Time*****/
+.heading{
+    margin-top: 0;
+}
+.time{
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128,.4);
+}
+.time p{
+    font-size: 11px;
+    margin-left: 0px;
+}
+.navicons{
+    display: flex;
+    width: 55px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/***********  CONTROLLER  ****************/
+.facecontainer{
+    height: 210px;
+}
+.face{
+    margin-top: -15%;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128,.4);   
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    transform: scale(.6);
+}
+.facecenter
+{
+    content: " ";
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(128, 128, 128,.5);
+
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    z-index: 10;
+}
+.div1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-self: flex-start;
+    }
+.face p{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.div1 p,.div2 p{
+    margin-top: 20%;
+}
+.div2 i,.div3 i,.div4 i{
+    font-size: 40px;
+}
+.div3 i,.div4 i{
+    margin-top: 15%;
+}
+.div2{
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+.center{
+    position: absolute;
+
+    width: 300px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+}
+.div3{
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+    
+    margin-left: 80%;
+}
+ .div4{
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+   
+    border-radius: 50%;
+   
+}
+
+
+
+/********************TIC TAC GAME***************************************/
+
+  .game1{
+    width: 280px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+  table{
+    width: 180px;
+    height: 180px;
+    font-weight: bolder;
+    font-size: 17px;
+    color: rgb(65, 61, 64);
+    margin-bottom: .05%;
+  }
+  
+  table tr td{
+      width: 18px;
+      height: 18px;
+    border: 2px solid black;
+  }
+  .r1c1{
+    border-left: none;
+    border-top: none;
+  }
+  .r1c2{
+    border-top: none;
+  }
+  .r1c3{
+    border-top: none;
+    border-right: none;
+  }
+  .r2c1{
+    border-left: none;
+  }
+  .r2c3{
+    border-right: none;
+  }
+  .r3c1{
+    border-left: none;
+    border-bottom: none;
+  }
+  .r3c2{
+    border-bottom: none;
+  }
+  .r3c3{
+    border-bottom: none;
+    border-right: none;
+  }
+
+  .gameresult{
+      color: white;
+      opacity: .9;
+      width: 280px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .gameresult p{
+   width: 150px;
+   padding: 20px 0px;
+border-radius: 10%;
+background-color: rgba(207, 41, 230, 0.3);
+  }
+
+
+  .settings{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .settings h3{
+      margin-top: 3%;
+  }
+  .settingicon{
+      width: 100px;
+      height: 100px;
+  }

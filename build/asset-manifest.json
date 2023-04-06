@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.853068a1.chunk.css",
+    "main.js": "/static/js/main.f44706a8.chunk.js",
+    "main.js.map": "/static/js/main.f44706a8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5e4e66a5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5e4e66a5.js.map",
+    "static/js/2.910015bb.chunk.js": "/static/js/2.910015bb.chunk.js",
+    "static/js/2.910015bb.chunk.js.map": "/static/js/2.910015bb.chunk.js.map",
+    "static/js/3.279c1458.chunk.js": "/static/js/3.279c1458.chunk.js",
+    "static/js/3.279c1458.chunk.js.map": "/static/js/3.279c1458.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.853068a1.chunk.css.map": "/static/css/main.853068a1.chunk.css.map",
+    "static/js/2.910015bb.chunk.js.LICENSE.txt": "/static/js/2.910015bb.chunk.js.LICENSE.txt",
+    "static/media/artist1.e3b00989.webp": "/static/media/artist1.e3b00989.webp",
+    "static/media/artist2.7b5d0467.png": "/static/media/artist2.7b5d0467.png",
+    "static/media/game.279beebf.jpg": "/static/media/game.279beebf.jpg",
+    "static/media/nature.a33cf25e.webp": "/static/media/nature.a33cf25e.webp",
+    "static/media/s1.dc5128cb.mp3": "/static/media/s1.dc5128cb.mp3",
+    "static/media/s2.196fba0c.mp3": "/static/media/s2.196fba0c.mp3",
+    "static/media/s3.768117b0.mp3": "/static/media/s3.768117b0.mp3",
+    "static/media/s4.b10d7fc2.mp3": "/static/media/s4.b10d7fc2.mp3",
+    "static/media/s5.c20ba1b0.mp3": "/static/media/s5.c20ba1b0.mp3",
+    "static/media/settingimg.f2ac0fc6.png": "/static/media/settingimg.f2ac0fc6.png",
+    "static/media/song1.d8fbfd65.jpg": "/static/media/song1.d8fbfd65.jpg",
+    "static/media/song2.cef82984.png": "/static/media/song2.cef82984.png",
+    "static/media/song3.43cf6c68.jpg": "/static/media/song3.43cf6c68.jpg",
+    "static/media/song4.5624f8d3.png": "/static/media/song4.5624f8d3.png",
+    "static/media/song5.916fe9f2.jpg": "/static/media/song5.916fe9f2.jpg",
+    "static/media/ttcbg.c5e9b5ea.jpg": "/static/media/ttcbg.c5e9b5ea.jpg",
+    "static/media/ttcrbg.cb683b16.jpg": "/static/media/ttcrbg.cb683b16.jpg",
+    "static/media/water.5dfb01d0.jpeg": "/static/media/water.5dfb01d0.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e4e66a5.js",
+    "static/js/2.910015bb.chunk.js",
+    "static/css/main.853068a1.chunk.css",
+    "static/js/main.f44706a8.chunk.js"
+  ]
+}
